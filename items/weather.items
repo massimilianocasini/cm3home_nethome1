@@ -1,0 +1,82 @@
+String	 Station			"Stazione [%s]"									<home>			(Weather)	{weather="locationId=roma, type=station, property=name"}
+Number   Temperature   		"Temperatura [%.2f °C]" 						<temperature> 	(Weather)	{weather="locationId=roma, type=temperature, property=current"}
+
+
+Number   Temp_Feel     		"Temperatura Percepita [%.2f °C]"  				<temperature> 	(Weather) 	{weather="locationId=roma, type=temperature, property=feel"}
+Number   Temp_Dewpoint  	"Punto di rugiada [%.2f °C]"        			<water> 		(Weather)	{weather="locationId=roma, type=temperature, property=dewpoint"}
+
+Number   Humidity   		"Umidità [%d %%]"       						<humidity> 		(Weather) 	{weather="locationId=roma, type=atmosphere, property=humidity"}
+Number   Pressure      		"Pressione [%d mBar]"    						<pressure> 		(Weather) 	{weather="locationId=roma, type=atmosphere, property=pressure"}
+Number   Visibility    		"Visibilità [%.2f km]" 							<zoom> 			(Weather) 	{weather="locationId=roma, type=atmosphere, property=visibility"}
+String   Pressure_Trend 	"Tendenza [%s]"    								<pressure> 		(Weather) 	{weather="locationId=roma, type=atmosphere, property=pressureTrend"}
+Number   Ozone    			"Ozono [[%d ppm]]" 								<zoom> 			(Weather) 	{weather="locationId=roma, type=atmosphere, property=visibility"}
+Number   UV_Index       	"Indice UV"             						<sun>			(Weather) 	{weather="locationId=roma, type=atmosphere, property=uvIndex, scale=0"}
+Number   Clouds   			"Nuvolosità [%.0f %%]"  						<cloud>			(Weather) 	{weather="locationId=roma, type=clouds, property=percent"}
+
+String   Condition      	"Condizioni [%s]"   							<sun_clouds> 	(Weather)   {weather="locationId=roma, type=condition, property=text"}
+String   Condition_ID   	"Condition id [%s]" 							<sun_clouds> 	(Weather)  	{weather="locationId=roma, type=condition, property=id"}
+DateTime ObservationTime 	"Obs [%1$td.%1$tm.%1$tY %1$tH:%1$tM]"   		<time>	 		(Weather) 	{weather="locationId=roma, type=condition, property=observationTime"}
+DateTime LastUpdate     	"Last update [%1$td.%1$tm.%1$tY %1$tH:%1$tM]"	<time> 			(Weather)   {weather="locationId=roma, type=condition, property=lastUpdate"}
+String   CommonId       	"Common id [%s]"      											(Weather)	{weather="locationId=roma, type=condition, property=commonId"}
+Number   Rain          		"Pioggia [%.2f mm/h]"   						<rain> 			(Weather)	{weather="locationId=roma, type=precipitation, property=rain"}
+Number   Precip_Probability "Precipitazioni % [%d %%]"  					<rain> 			(Weather) 	{weather="locationId=roma, type=precipitation, property=probability"}
+Number   Precip_Total    	"Precipitazioni totali [%d mm]"   				<rain> 			(Weather) 	{weather="locationId=roma, type=precipitation, property=total"}
+Number   Wind_Speed      	"Velocità del vento [%.2f km/h]" 				<wind> 			(Weather)   {weather="locationId=roma, type=wind, property=speed"}
+String	 Wind_Direction  	"Direzione del vento [%s]"     					<wind> 			(Weather) 	{weather="locationId=roma, type=wind, property=direction"}
+
+
+DateTime ObservationTime0 	"Previsioni [(%1$tA)]"  						<time> 			(Weather) 	{weather="locationId=roma, forecast=0, type=condition, property=observationTime"}
+Number   Temp_Min0      	"Temperatura min [%.2f °C]"   					<temperature> 	(Weather) 	{weather="locationId=roma, forecast=0, type=temperature, property=min"}
+Number   Temp_Max0      	"Temperatura max [%.2f °C]"   					<temperature> 	(Weather) 	{weather="locationId=roma, forecast=0, type=temperature, property=max"}
+Number   Clouds0   			"Nuvolosità [%.0f %%]"  						<cloud>			(Weather) 	{weather="locationId=roma, forecast=0,type=clouds, property=percent"}
+String   Condition0     	"Condizioni [%s]"     							<sun_clouds> 	(Weather)	{weather="locationId=roma, forecast=0, type=condition, property=text"}
+String   Condition_ID0  	"Condizioni id [%s]"  							<sun_clouds> 	(Weather)	{weather="locationId=roma, forecast=0, type=condition, property=commonId"}
+
+DateTime ObservationTime1 	"Previsioni [(%1$tA)]" 							<time> 			(Weather) 	{weather="locationId=roma, forecast=1, type=condition, property=observationTime"}
+Number   Temp_Min1      	"Temperatura min [%.2f °C]"   					<temperature> 	(Weather) 	{weather="locationId=roma, forecast=1, type=temperature, property=min"}
+Number   Temp_Max1      	"Temperatura max [%.2f °C]"   					<temperature> 	(Weather) 	{weather="locationId=roma, forecast=1, type=temperature, property=max"}
+Number   Clouds1   			"Nuvolosità [%.0f %%]"  						<cloud>			(Weather) 	{weather="locationId=roma, forecast=1,type=clouds, property=percent"}
+String   Condition1     	"Condizioni [%s]"   							<sun_clouds> 	(Weather)   {weather="locationId=roma, forecast=1, type=condition, property=text"}
+String   Condition_ID1  	"Condizioni id [%s]" 							<sun_clouds> 	(Weather)  	{weather="locationId=roma, forecast=1, type=condition, property=commonId"}
+
+DateTime ObservationTime2 	"Previsioni [(%1$tA)]"  						<time> 			(Weather) 	{weather="locationId=roma, forecast=2, type=condition, property=observationTime"}
+Number   Temp_Min2      	"Temperatura min [%.2f °C]"   					<temperature> 	(Weather) 	{weather="locationId=roma, forecast=2, type=temperature, property=min"}
+Number   Temp_Max2      	"Temperatura max [%.2f °C]"   					<temperature> 	(Weather) 	{weather="locationId=roma, forecast=2, type=temperature, property=max"}
+Number   Clouds2   			"Nuvolosità [%.0f %%]"  						<cloud>			(Weather) 	{weather="locationId=roma, forecast=2,type=clouds, property=percent"}
+String   Condition2     	"Condizioni [%s]"     							<sun_clouds> 	(Weather)	{weather="locationId=roma, forecast=2, type=condition, property=text"}
+String   Condition_ID2  	"Condizioni id [%s]"  							<sun_clouds> 	(Weather)	{weather="locationId=roma, forecast=2, type=condition, property=commonId"}
+
+DateTime ObservationTime3 	"Previsioni [(%1$tA)]"  						<time> 			(Weather) 	{weather="locationId=roma, forecast=3, type=condition, property=observationTime"}
+Number   Temp_Min3      	"Temperatura min [%.2f °C]"   					<temperature> 	(Weather) 	{weather="locationId=roma, forecast=3, type=temperature, property=min"}
+Number   Temp_Max3      	"Temperatura max [%.2f °C]"   					<temperature> 	(Weather) 	{weather="locationId=roma, forecast=3, type=temperature, property=max"}
+Number   Clouds3   			"Nuvolosità [%.0f %%]"  						<cloud>			(Weather) 	{weather="locationId=roma, forecast=3,type=clouds, property=percent"}
+String   Condition3     	"Condizioni [%s]"     							<sun_clouds> 	(Weather)	{weather="locationId=roma, forecast=3, type=condition, property=text"}
+String   Condition_ID3  	"Condizioni id [%s]"  							<sun_clouds> 	(Weather)	{weather="locationId=roma, forecast=3, type=condition, property=commonId"}
+
+DateTime ObservationTime4 	"Previsioni [(%1$tA)]"  						<time> 			(Weather) 	{weather="locationId=roma, forecast=4, type=condition, property=observationTime"}
+Number   Temp_Min4      	"Temperatura min [%.2f °C]"   					<temperature> 	(Weather) 	{weather="locationId=roma, forecast=4, type=temperature, property=min"}
+Number   Temp_Max4      	"Temperatura max [%.2f °C]"   					<temperature> 	(Weather) 	{weather="locationId=roma, forecast=4, type=temperature, property=max"}
+Number   Clouds4   			"Nuvolosità [%.0f %%]"  						<cloud>			(Weather) 	{weather="locationId=roma, forecast=4,type=clouds, property=percent"}
+String   Condition4     	"Condizioni [%s]"     							<sun_clouds> 	(Weather)	{weather="locationId=roma, forecast=4, type=condition, property=text"}
+String   Condition_ID4  	"Condizioni id [%s]"  							<sun_clouds> 	(Weather)	{weather="locationId=roma, forecast=4, type=condition, property=commonId"}
+
+DateTime ObservationTime5 	"Previsioni [(%1$tA)]"  						<time> 			(Weather) 	{weather="locationId=roma, forecast=5, type=condition, property=observationTime"}
+Number   Temp_Min5      	"Temperatura min [%.2f °C]"   					<temperature> 	(Weather) 	{weather="locationId=roma, forecast=5, type=temperature, property=min"}
+Number   Temp_Max5      	"Temperatura max [%.2f °C]"   					<temperature> 	(Weather) 	{weather="locationId=roma, forecast=5, type=temperature, property=max"}
+Number   Clouds5   			"Nuvolosità [%.0f %%]"  						<cloud>			(Weather) 	{weather="locationId=roma, forecast=5,type=clouds, property=percent"}
+String   Condition5     	"Condizioni [%s]"     							<sun_clouds> 	(Weather)	{weather="locationId=roma, forecast=5, type=condition, property=text"}
+String   Condition_ID5  	"Condizioni id [%s]"  							<sun_clouds> 	(Weather)	{weather="locationId=roma, forecast=5, type=condition, property=commonId"}
+
+DateTime ObservationTime6 	"Previsioni [(%1$tA)]"  						<time> 			(Weather) 	{weather="locationId=roma, forecast=6, type=condition, property=observationTime"}
+Number   Temp_Min6      	"Temperatura min [%.2f °C]"   					<temperature> 	(Weather) 	{weather="locationId=roma, forecast=6, type=temperature, property=min"}
+Number   Temp_Max6      	"Temperatura max [%.2f °C]"   					<temperature> 	(Weather) 	{weather="locationId=roma, forecast=6, type=temperature, property=max"}
+Number   Clouds6   			"Nuvolosità [%.0f %%]"  						<cloud>			(Weather) 	{weather="locationId=roma, forecast=6,type=clouds, property=percent"}
+String   Condition6     	"Condizioni [%s]"     							<sun_clouds> 	(Weather)	{weather="locationId=roma, forecast=6, type=condition, property=text"}
+String   Condition_ID6  	"Condizioni id [%s]"  							<sun_clouds> 	(Weather)	{weather="locationId=roma, forecast=6, type=condition, property=commonId"}
+<<<<<<< HEAD
+
+
+
+String  Wind    "Vento [%s]" <wind>
+=======
+>>>>>>> 6d4e96ef05cdc5588dcf18090b0f8894d848657b

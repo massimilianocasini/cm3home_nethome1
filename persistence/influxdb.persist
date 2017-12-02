@@ -1,0 +1,9 @@
+Strategies {
+	everyMinute : "0 * * * * ?"
+	everyHour   : "0 0 * * * ?"
+	everyDay    : "0 0 0 * * ?"
+	}
+Items {
+/* Formato group*, item, * all items */
+* : strategy =  everyMinute, everyChange, restoreOnStartup
+}

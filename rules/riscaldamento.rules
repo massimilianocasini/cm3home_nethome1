@@ -1,0 +1,10 @@
+var Number counter = 0
+var Number stato = 0
+
+rule "SetPointTarget"
+when
+  Item SetPointTarget1 changed
+then
+  SetPointTarget1.postUpdate(SetPointTarget1.state)
+end
+

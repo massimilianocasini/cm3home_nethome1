@@ -1,0 +1,7 @@
+rule "concat"
+when
+  Item Wind_Speed received update or
+  Item Wind_Direction received update
+then
+  Wind.postUpdate(Wind_Speed.state.toString + " km/h  " + Wind_Direction.state.toString)
+end

@@ -1,0 +1,2 @@
+Dimmer IR_0 "IR0" <light> {mqtt= "<[broker1:openhab/out/ir/command:command:100:key_0], <[broker1:openhab/out/ir/command:command:50:key_3], <[broker1:openhab/out/ir/command:command:0:key_6]", autoupdate="false"}
+Dimmer IR_1 "IR1" <light> {mqtt= "<[broker1:openhab/out/ir/command:command:100:key_2], <[broker1:openhab/out/ir/command:command:50:key_5], <[broker1:openhab/out/ir/command:command:0:key_8]", autoupdate="false"}

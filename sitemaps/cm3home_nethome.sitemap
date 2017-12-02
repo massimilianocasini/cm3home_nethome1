@@ -1,0 +1,90 @@
+<<<<<<< HEAD
+sitemap cm3home_nethome label="Benvenuto in NetHome" 
+{
+	Frame label=Scene
+	{
+	Switch item=avgPresa icon="switch" mappings=[OFF="All Off", ON="All On"]
+	
+	
+	}
+	Frame label=Meteo 
+=======
+ sitemap cm3home_nethome label="Benvenuto in NetHome" 
+{
+	Frame label=Meteo
+>>>>>>> 6d4e96ef05cdc5588dcf18090b0f8894d848657b
+	{
+			
+		Text label="Meteo attuale" icon=sun_clouds
+		{
+				Text item=Temperature label="Temperatura esterna attuale"	
+				Text item=Station
+				Text item=Temp_Min0  valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]
+				Text item=Temp_Max0  valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]
+				Text item=Humidity
+				Text item=Pressure
+				Text item=Condition0
+				Text item=Wind_Speed
+<<<<<<< HEAD
+				Text item=Wind
+=======
+>>>>>>> 6d4e96ef05cdc5588dcf18090b0f8894d848657b
+		
+		 }
+		 
+	 
+		Text label="Meteo previsioni per domani" icon=sun_clouds
+		{
+				Text item=Temp_Min1  valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]
+				Text item=Temp_Max1  valuecolor=[>25="orange",>15="green",>5="orange",<=5="blue"]	
+				Text item=Condition1
+		 }
+		
+ }
+<<<<<<< HEAD
+ 
+   Frame label="Comfort ZWAVE"
+   {
+   			
+   			Text item=MotionSensor1_PT_Temperatura
+   			Setpoint item=SetPointTarget1 minValue=1 maxValue=30 step=1
+   	}
+    
+    
+    Frame label="Illuminazione ZWAVE"
+    {
+    		
+    		Switch item=WallPlug1_PT_Presa label="Fibaro WallPlug"
+    		Text item=WallPlug1_PT_Potenza label="Consumo"
+    		Text item=WallPlug1_PT_Energia label="Energia consumata"
+	}
+	
+	
+	Frame label="Mondo IKEA"
+	{
+			
+			Slider item=Light1 label="Light1 Brightness [%.1f %%]" sendFrequency=10
+			Slider item=Light1_ColorTemperature label="Light1 Color Temperature [%.1f %%]" sendFrequency=10
+			Slider item=Light2 label="Light2 Brightness [%.1f %%]" sendFrequency=10
+			Slider item=Light2_ColorTemperature label="Light2 Color Temperature [%.1f %%]" sendFrequency=10
+			
+	}
+	
+	
+	Frame label="Mondo Fritz!"
+	{
+		Text item=Fritz200temperatura label="Temperatura rilevata"
+		Switch item=Fritz200switch label="Presa"
+		}
+		
+		
+	
+			}
+			
+			
+			
+=======
+}
+
+
+>>>>>>> 6d4e96ef05cdc5588dcf18090b0f8894d848657b

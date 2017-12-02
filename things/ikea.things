@@ -1,0 +1,5 @@
+
+Bridge tradfri:gateway:gwdcefcabd70f3 [ host="192.168.188.22", code="TSjyUBfRZKszGUhJ" ] {
+    0220 myDimmableBulb1 [ id=65537 ]    
+    0220 myDimmableBulb2 [ id=65538 ]
+}
