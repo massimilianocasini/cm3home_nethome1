@@ -73,10 +73,6 @@ Number   Temp_Max6      	"Temperatura max [%.2f °C]"   					<temperature> 	(Wea
 Number   Clouds6   			"Nuvolosità [%.0f %%]"  						<cloud>			(Weather) 	{weather="locationId=roma, forecast=6,type=clouds, property=percent"}
 String   Condition6     	"Condizioni [%s]"     							<sun_clouds> 	(Weather)	{weather="locationId=roma, forecast=6, type=condition, property=text"}
 String   Condition_ID6  	"Condizioni id [%s]"  							<sun_clouds> 	(Weather)	{weather="locationId=roma, forecast=6, type=condition, property=commonId"}
-<<<<<<< HEAD
-
-
 
 String  Wind    "Vento [%s]" <wind>
-=======
->>>>>>> 6d4e96ef05cdc5588dcf18090b0f8894d848657b
+

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 sitemap cm3home_nethome label="Benvenuto in NetHome" 
 {
 	Frame label=Scene
@@ -7,12 +7,10 @@ sitemap cm3home_nethome label="Benvenuto in NetHome"
 	
 	
 	}
-	Frame label=Meteo 
-=======
- sitemap cm3home_nethome label="Benvenuto in NetHome" 
-{
+
+
 	Frame label=Meteo
->>>>>>> 6d4e96ef05cdc5588dcf18090b0f8894d848657b
+
 	{
 			
 		Text label="Meteo attuale" icon=sun_clouds
@@ -25,10 +23,9 @@ sitemap cm3home_nethome label="Benvenuto in NetHome"
 				Text item=Pressure
 				Text item=Condition0
 				Text item=Wind_Speed
-<<<<<<< HEAD
+
 				Text item=Wind
-=======
->>>>>>> 6d4e96ef05cdc5588dcf18090b0f8894d848657b
+
 		
 		 }
 		 
@@ -41,7 +38,7 @@ sitemap cm3home_nethome label="Benvenuto in NetHome"
 		 }
 		
  }
-<<<<<<< HEAD
+
  
    Frame label="Comfort ZWAVE"
    {
@@ -83,8 +80,8 @@ sitemap cm3home_nethome label="Benvenuto in NetHome"
 			
 			
 			
-=======
-}
 
 
->>>>>>> 6d4e96ef05cdc5588dcf18090b0f8894d848657b
+
+
+
